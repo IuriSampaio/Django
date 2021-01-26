@@ -1,0 +1,38 @@
+body {
+    background-color: #232323;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#cep{
+    color: transparent;
+    display: none;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.center{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+}
+
+.err-text{
+    align-self: center;
+    color: red;
+    font: 700 48px arial,sans-serif;
+}
+.err-img{
+    width: 500px;
+    height: 250px;
+}
